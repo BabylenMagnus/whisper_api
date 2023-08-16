@@ -11,6 +11,8 @@ RUN pip install soundfile
 RUN pip install scipy
 RUN pip install pybase64
 RUN pip install faster-whisper
+RUN pip install yt-dlp
+
 COPY whisper whisper/
 WORKDIR whisper/
 EXPOSE 5000
