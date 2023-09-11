@@ -1,0 +1,10 @@
+torch
+torchvision
+tqdm
+transformers
+ffmpeg-python
+soundfile
+scipy
+pybase64
+faster-whisper
+yt-dlp

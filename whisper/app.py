@@ -18,7 +18,7 @@ import uuid
 
 app = Flask(__name__, static_folder='results')
 
-model_size = "medium"
+model_size = "large-v2"
 model = WhisperModel(model_size, device="cuda", compute_type="int8")
 SAMPLE_RATE = 16000
 
